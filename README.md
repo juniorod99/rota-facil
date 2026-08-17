@@ -1,4 +1,18 @@
-# vinext-starter
+# Rota Fácil
+
+Organizador de planilhas de entregas da Shopee. O processamento acontece no
+próprio navegador: a planilha não é enviada a um servidor.
+
+## GitHub Pages
+
+O arquivo `.github/workflows/deploy-pages.yml` publica automaticamente uma
+versão estática quando há alterações na branch `main`.
+
+No GitHub, abra **Settings → Pages** e selecione **GitHub Actions** em
+**Build and deployment → Source**. Depois do primeiro fluxo concluído, o site
+ficará disponível em `https://juniorod99.github.io/rota-facil/`.
+
+## Desenvolvimento
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
